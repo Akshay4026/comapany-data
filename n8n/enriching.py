@@ -65,9 +65,9 @@ Return the response *strictly* in this JSON format without extra explanation:
         print("Request failed:", e)
         return None
 
-# Example usage
-if __name__ == "__main__":
-    company_cin = "U72200TG2003PTC041835"
-    data = query_perplexity(company_cin)
-    print("Final parsed response:", json.dumps(data, indent=2) if data else None)
+# if __name__ == "__main__":
+#     company_cin = "U72200TG2003PTC041835" # its my testing code
+#     data = query_perplexity(company_cin)
+#     print("Final parsed response:", json.dumps(data, indent=2) if data else None)
+
 
